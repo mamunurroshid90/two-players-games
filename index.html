@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game Box</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section id="game__section">
+      <div class="box-first-player-name box">
+        <h1 class="heading-1">PLAYER ONE</h1>
+        <input
+          class="name-input player-one-name"
+          type="text"
+          placeholder="Enter your name"
+          name="name"
+        />
+        <button type="submit">Start Game</button>
+      </div>
+      <div class="box-first-player-input box">
+        <h1 class="heading-2"></h1>
+        <input
+          class="input-number player-one-input"
+          type="number"
+          placeholder="Enter a number"
+        />
+        <button type="submit">Let's Play</button>
+      </div>
+      <div class="box-second-player-name box">
+        <h1 class="heading-3">Second Player Name</h1>
+        <input
+          class="player-two-name"
+          name="name"
+          type="text"
+          placeholder="Enter your name"
+        />
+        <button type="submit">Start Game</button>
+      </div>
+      <div class="box-second-player-input box">
+        <h1 class="heading-4">Input your number</h1>
+        <h5>Guess the secret number</h5>
+        <input
+          class="player-two-input"
+          type="number"
+          placeholder="Enter guess the secret number"
+        />
+        <button type="submit">Confirm</button>
+        <p class="error"></p>
+      </div>
+      <p class="player-one winner"></p>
+      <p class="player-two winner"></p>
+    </section>
+    <script src="js/custom.js"></script>
+  </body>
+</html>
